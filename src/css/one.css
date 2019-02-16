@@ -1,0 +1,143 @@
+@charset "utf-8";
+div,
+p,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+form,
+table,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+select,
+textarea,
+span,
+strong,
+em,
+b,
+i,
+u,
+a,
+img,
+* {
+    padding: 0;
+    margin: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+address,
+dialog {
+    display: block;
+}
+
+time,
+mark,
+cite,
+ruby,
+rp,
+rt {
+    display: inline;
+}
+
+html {
+    font-family: "微软雅黑", "Helvetica Neue", Helvetica, STHeiTi, Arial, sans-serif;
+    font-size: 625%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    font-size: 14px;
+    font-size: .14rem;
+    color: #000;
+    background-color: #fff;
+    -webkit-overflow-scrolling: touch;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    -moz-user-elect: none;
+    -ms-user-select: none;
+    user-select: none;
+    touch-callout: none;
+    -webkit-touch-callout: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: .16rem;
+    font-weight: normal;
+}
+
+img {
+    border: none;
+}
+
+img,
+input,
+textarea,
+select,
+output {
+    vertical-align: middle;
+}
+
+a {
+    background: transparent;
+    text-decoration: none;
+    color: #333;
+}
+
+a:active,
+input,
+button {
+    background-color: transparent;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+input {
+    -webkit-appearance: none;
+    line-height: normal;
+}
+
+a:hover {
+    color: #006699;
+}
+
+.clear {
+    clear: both;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+}
